@@ -1,0 +1,223 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.822), rgb(32, 30, 30) )
+}
+
+.title{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; 
+    color: aliceblue; 
+    font-size: 90px;
+    width: 200vh;
+}
+
+.batata{
+    background-color: rgba(0, 0, 0, 0.349);
+    padding:5vh ;
+    width: 120vh;
+    box-sizing: border-box;
+    left: 21vh;
+    right: 0vh;
+    position: relative;
+    height: auto;
+}
+
+
+h3{
+    color: rgba(255, 255, 255, 0.808);
+    position: absolute;
+    right: 97.3vh;
+    top: 1vh;
+    font-size: 3vh;
+    
+}
+
+h4{
+    color: rgba(255, 255, 255, 0.808);
+    text-align: justify;
+    padding: 0vh;
+    font-size: 2.5vh;
+}
+
+.img1{
+    transition: .7s;
+    height: 5vh;
+    background-color: rgb(0, 0, 0, 0.349);
+    border-radius: 0.1rem;
+    padding: 0.3vh;
+    position: relative;
+    right: -25vh;
+    top: -7vh;
+}
+
+.img1:hover{
+    background-color: white;
+    color: #000000;
+    border: 0.01vh solid rgba(0, 0, 0, 0.349);  
+}
+  
+#EnsinoMedio {
+    background-color: rgba(0, 0, 0, 0.349); 
+    color: white; 
+    border: 1vh solid transparent;    
+    position: absolute;
+    border-radius: 0.5vh;
+    transition: .5s;
+    right: 9.5%;
+    text-decoration: none;
+    padding: 1vh;
+}
+  
+#EnsinoMedio:hover {
+    background-color: white;
+    color: black;
+    border: 0vh solid rgba(0, 0, 0, 0.349);
+}
+   
+
+#CursoTecnico{
+    background-color: rgba(0, 0, 0, 0.349); 
+    color: rgb(255, 255, 255); 
+    border: 1vh solid transparent;    
+    position: absolute;
+    border-radius: 0.5vh;
+    transition: .5s;
+    right: 0.9%;
+    text-decoration: none;
+    padding: 1vh;
+}   
+
+#CursoTecnico:hover {
+    background-color: white;
+    color: #000000;
+    border: 0vh solid rgba(0, 0, 0, 0.349); 
+}
+
+/*PAGINA CURRICULO*/
+
+#cuuurriculo{
+    background-color: rgba(0, 0, 0, 0.349); 
+    color: rgb(255, 255, 255); 
+    border: 1vh solid transparent;    
+    position: absolute;
+    border-radius: 0.5vh;
+    transition: .5s;
+    right: 18%;
+    text-decoration: none;
+    padding: 1vh;
+}
+
+#cuuurriculo:hover{
+    background-color: white;
+    color: #000000;
+    border: 0vh solid rgba(0, 0, 0, 0.349); 
+}
+
+
+.gif1{
+    width: -100vh;
+    transition: .7s;
+    height: 40vh;
+    background-color: white;
+    border-radius: 2vh;
+    padding: 2vh;
+    position: absolute;
+    right: 70vh;
+    top: 30vh;
+    box-shadow: 3vh 1vh 1vh 1vh;
+}
+
+.gif1:hover{
+    background-color: white;
+    color: #000000;
+    border: 0vh solid rgba(0, 0, 0, 0.349);  
+}
+
+.contactButton {
+    width: 20vh;
+    background: #7079f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.45vh;
+    padding-left: 1.5vh;
+    font-size: 3.5vh;
+    font-weight: 500;
+    border-radius: 2vh;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.1vh;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6vh -0.6vh #714da6;
+    overflow: hidden;
+    position: absolute;
+    top: 85vh;
+    height: 10vh;
+    text-decoration: none;
+  }
+  
+.iconButton {
+    margin-left: 1vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 8vh;
+    border-radius: 2vh;
+    box-shadow: 0.1vh 0.1vh 0.6vh 0.2vh #7a8cf3;
+    right: 0.3vh;
+    transition: all 0.3s;
+  }
+  
+.contactButton:hover {
+    transform: translate(-0.05vh, -0.5vh);
+    box-shadow: 0.5vh 0.5vh #5566c2;
+  }
+  
+.contactButton:active {
+    transform: translate(0.05vh, 0.05vh);
+    box-shadow: 0.05em 0.05em #5566c2;
+  }
+
+.aaa{
+    background-color: rgba(0, 0, 0, 0.349); 
+    color: rgb(255, 255, 255); 
+    border: 0.3vh solid transparent;    
+    position: absolute;
+    border-radius: 0.5vh;
+    transition: .5s;
+    right: 80vh;
+    text-decoration: none;
+    padding: 1.3vh;
+}   
+
+.aaa:hover {
+    background-color: white;
+    color: #000000;
+    border: 0.3vh solid rgba(0, 0, 0, 0.349); 
+}
+
+.bbb{
+    background-color: rgba(0, 0, 0, 0.349); 
+    color: rgb(255, 255, 255); 
+    border: 0.3vh solid transparent;    
+    position: absolute;
+    border-radius: 0.5vh;
+    transition: .5s;
+    right: 110vh;
+    text-decoration: none;
+    padding: 1.3vh;
+}   
+
+.bbb:hover {
+    background-color: white;
+    color: #000000;
+    border: 0.3vh solid rgba(0, 0, 0, 0.349); 
+}

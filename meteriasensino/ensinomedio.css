@@ -1,0 +1,493 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.822)
+}
+
+.title{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; 
+    color: aliceblue; 
+    font-size: 90px;
+}
+
+.textmatematica{
+    position: absolute;
+    font-size: 16px;
+    left: 50vh;
+    top: 31.5vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.iconmatematica{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 48.5vh;
+    top: 34.2vh;
+}
+
+.textnatu{
+    position: absolute;
+    font-size: 16px;
+    left: 110vh;
+    top: 31.5vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.iconnatu{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 113vh;
+    top: 34.2vh;
+}
+
+.texthuman{
+    position: absolute;
+    font-size: 16px;
+    top: 72vh;
+    left: 46.6vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.iconhuman{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 48.5vh;
+    top: 75vh;
+}
+
+.textling{
+    position: absolute;
+    font-size: 16px;
+    top: 72vh;
+    left: 115vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.iconling{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 113vh;
+    top: 75vh;
+}
+
+#HOME {
+    background-color: rgba(0, 0, 0, 0.349); 
+    color: white; 
+    border: 2px solid transparent;    
+    position: absolute;
+    border-radius: 5px;
+    transition: .5s;
+    right: 0.9%;
+    text-decoration: none;
+    padding: 1vh;
+}
+  
+#HOME:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.349);
+}
+
+.contactButton {
+    width: 20vh;
+    background: #7079f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.45vh;
+    padding-left: 1.5vh;
+    font-size: 3.5vh;
+    font-weight: 500;
+    border-radius: 2vh;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.1vh;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6vh -0.6vh #714da6;
+    overflow: hidden;
+    position: absolute;
+    top: 105vh;
+    height: 10vh;
+    text-decoration: none;
+  }
+  
+.iconButton {
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+.contactButton:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+  }
+  
+.contactButton:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+  }
+
+/* PAGINA PPE */
+
+.PPE{
+        background-color: rgba(0, 0, 0, 0.349); 
+        color: white; 
+        border: 2px solid transparent;    
+        position: absolute;
+        border-radius: 5px;
+        transition: .5s;
+        right: 1%;
+        text-decoration: none;
+        padding: 1vh;
+}
+
+.PPE:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.349);
+}
+
+/* PADRAO DE PAGINA ATIVIDADE */
+
+.posi1{
+    position: absolute;
+    font-size: 20px;
+    left: 58vh;
+    top: 31.5vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    background-color: #5566c2;
+    text-align: center;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 1vh; 
+}
+
+.imgposi1{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 30vh;
+    top: 42vh;  
+}
+
+.textoquetemquecolocarembaixo{
+    position: absolute;
+    font-size: 12px;
+    left: 30vh;
+    top: 73vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+    
+.posi2{
+    position: absolute;
+    font-size: 20px;
+    left: 137vh;
+    top: 31.5vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    background-color: #5566c2;
+    text-align: center;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 1vh; 
+}
+
+.imgposi2{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 131vh;
+    top: 42vh;  
+}
+
+.textoquetemquecolocarembaixo2{
+    position: absolute;
+    font-size: 12px;
+    left: 130vh;
+    top: 73vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+
+/* parte de linguagem e matematica que nao é padrao por ter so uma atividade */
+
+.textlingtitulo{
+    position: absolute;
+    font-size: 20px;
+    left: 95vh;
+    top: 31.5vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    background-color: #5566c2;
+    text-align: center;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 1vh; 
+}
+
+.lingeboafoto{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 89vh;
+    top: 42vh;  
+}
+
+.textoquetemquecolocarembaixo3{
+    position: absolute;
+    font-size: 12px;
+    left: 87vh;
+    top: 73vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+
+.textboatitulo{
+    position: absolute;
+    font-size: 20px;
+    left: 91.5vh;
+    top: 31.5vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    background-color: #5566c2;
+    text-align: center;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 1vh; 
+}
+
+.contactButton2 {
+    width: 20vh;
+    background: #7079f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.45vh;
+    padding-left: 1.5vh;
+    font-size: 3.5vh;
+    font-weight: 500;
+    border-radius: 2vh;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.1vh;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6vh -0.6vh #714da6;
+    overflow: hidden;
+    position: absolute;
+    top: 87vh;
+    height: 10vh;
+    text-decoration: none;
+  }
+
+  .textoquetemquecolocarembaixo4{
+    position: absolute;
+    font-size: 12px;
+    left: 90vh;
+    top: 73vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+
+/*VOLTAMOS PARA PROGRAMAÇÃO NORMAL (natureza) */
+
+button {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #725AC1;
+    background: rgba(0, 0, 0, 0.349);
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #725AC1;
+    left: 60vh;
+  }
+  
+  button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #725AC1;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+
+  .posi11{
+    width: auto;
+    position: absolute;
+    font-size: 3vh;
+    left: 32.5vh;
+    top: 32vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    background-color: #5566c2;
+    text-align: center;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 1vh; 
+}
+
+.posi22{
+    width: auto;
+    position: absolute;
+    font-size: 3vh;
+    left: 132vh;
+    top: 32vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    background-color: #5566c2;
+    text-align: center;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 1vh; 
+}
+
+.posi33{
+    width: auto;
+    position: absolute;
+    font-size: 3vh;
+    left: 84vh;
+    top: 32vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    background-color: #5566c2;
+    text-align: center;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 1vh; 
+}
+
+.imgposi3{
+    width: -100vh;
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 82vh;
+    top: 42vh;
+}
+
+.textoquetemquecolocarembaixo5{
+    position: absolute;
+    font-size: 12px;
+    left: 82.5vh;
+    top: 73vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}

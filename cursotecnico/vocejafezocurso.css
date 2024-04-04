@@ -1,0 +1,219 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.822)
+}
+
+.title{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; 
+    color: aliceblue; 
+    font-size: 90px;
+}
+
+.textdesen{
+    position: absolute;
+    font-size: 16px;
+    left: 30vh;
+    top: 31.5vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.icondesen{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 27.5vh;
+    top: 34.2vh;
+}
+
+.textimplante{
+    position: absolute;
+    font-size: 16px;
+    left: 78vh;
+    top: 31.5vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.iconimplante{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 80vh;
+    top: 34.2vh;
+}
+
+.textmodel{
+    position: absolute;
+    font-size: 16px;
+    top: 72vh;
+    left: 31.5vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.iconmodel{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 27.5vh;
+    top: 75vh;
+}
+
+.textbank{
+    position: absolute;
+    font-size: 16px;
+    top: 31.5vh;
+    left: 138.3vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.iconbank{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 130vh;
+    top: 34.2vh;
+}
+
+.texttest{
+    position: absolute;
+    font-size: 16px;
+    top: 72vh;
+    left: 88vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.icontest{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 80vh;
+    top: 75vh;
+}
+
+.textapp{
+    position: absolute;
+    font-size: 16px;
+    top: 72vh;
+    left: 133vh;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.iconapp{
+    height: 32vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 130vh;
+    top: 75vh;
+}
+
+#HOME {
+    background-color: rgba(0, 0, 0, 0.349); 
+    color: white; 
+    border: 2px solid transparent;    
+    position: absolute;
+    border-radius: 5px;
+    transition: .5s;
+    right: 0.9%;
+    text-decoration: none;
+    padding: 1vh;
+}
+  
+#HOME:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.349);
+}
+
+.contactButton {
+    width: 20vh;
+    background: #7079f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.45vh;
+    padding-left: 1.5vh;
+    font-size: 3.5vh;
+    font-weight: 500;
+    border-radius: 2vh;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.1vh;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6vh -0.6vh #714da6;
+    overflow: hidden;
+    position: absolute;
+    top: 105vh;
+    height: 10vh;
+    text-decoration: none;
+  }
+  
+.iconButton {
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+.contactButton:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+  }
+  
+.contactButton:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+  }
